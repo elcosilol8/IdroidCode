@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "132321032665",
-    "project_id": "recolapp-5ecca",
-    "storage_bucket": "recolapp-5ecca.appspot.com"
+    "project_number": "783037850047",
+    "project_id": "recolapp-a635c",
+    "storage_bucket": "recolapp-a635c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:132321032665:android:a045012669125074f581c8",
+        "mobilesdk_app_id": "1:783037850047:android:03c837506d7e72db40410a",
         "android_client_info": {
           "package_name": "com.bornidea.re_circulapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "132321032665-dh20c3510pksi8f96457l15n5joukunl.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.bornidea.re_circulapp",
-            "certificate_hash": "812ada41f0aed8a13dea85f8bc50a0ac799a2759"
-          }
-        },
-        {
-          "client_id": "132321032665-2kjhh41r3gknpieq2ed3nqakoog60g68.apps.googleusercontent.com",
+          "client_id": "783037850047-ieovec6tdiel2p2mtupqfftrh6qf6v0f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDZSMmlbibX_nhDsNvfUNKtaYh_HXa6C5Q"
+          "current_key": "AIzaSyDPLdnN6mzfWr10u8Vj9FA2Xg1WkWaO8Ik"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "132321032665-2kjhh41r3gknpieq2ed3nqakoog60g68.apps.googleusercontent.com",
+              "client_id": "783037850047-ieovec6tdiel2p2mtupqfftrh6qf6v0f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -58,5 +58,5 @@ jobs:
 
           name: apk-release
 
-          path: app/release/app-release.apk
+          path: app/release/
 

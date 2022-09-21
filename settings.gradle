@@ -1,3 +1,17 @@
-rootProject.name='VisualXML'
-include ':app', ':recyclertreeview-lib'
-include ':visualxml'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name='IdroidCode'
+include ':app' 

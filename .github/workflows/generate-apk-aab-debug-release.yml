@@ -6,11 +6,11 @@ on:
 
   push:
 
-    branches: [ master ]
+    branches: [ main ]
 
   pull_request:
 
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
@@ -44,11 +44,6 @@ jobs:
 
         run: ./gradlew build
 
-      # Create APK Debug
-
-      - name: Build apk debug project (APK)
-
-        run: ./gradlew assembleDebug
 
       # Create APK Release
 
@@ -56,13 +51,6 @@ jobs:
 
         run: ./gradlew assemble
 
-      # Create Bundle AAB Release
-
-      # Noted for main module build [module-name]:bundleRelease
-
-      - name: Build app bundle release (AAB)
-
-        run: ./gradlew app:bundleRelease
 
       # Upload Artifact Build
 

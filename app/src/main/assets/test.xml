@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+	android:background="#4863c9"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Usaba a grouphelp pero el bot murió en mi grupo y ya no da bienvenida no elimina mensajes ni nada. Solo responde por comandos de mensaje. Pero el por su cuenta ya no hace nada" />
+
+</LinearLayout>

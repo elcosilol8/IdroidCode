@@ -35,10 +35,10 @@
         android:layout_height="100dp"
         
         app:shapeAppearanceOverlay="@style/Shape"
-        app:layout_constraintBottom_toBottomOf="@+id/colorPicker"
-        app:layout_constraintEnd_toEndOf="@+id/colorPicker"
-        app:layout_constraintStart_toStartOf="@+id/colorPicker"
-        app:layout_constraintTop_toTopOf="@+id/colorPicker" />
+        app:layout_constraintBottom_toBottomOf="@id/colorPicker"
+        app:layout_constraintEnd_toEndOf="@id/colorPicker"
+        app:layout_constraintStart_toStartOf="@id/colorPicker"
+        app:layout_constraintTop_toTopOf="@id/colorPicker" />
 
 
 

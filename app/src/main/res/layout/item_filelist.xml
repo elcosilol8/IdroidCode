@@ -42,9 +42,9 @@
         android:textSize="14sp"
         
         android:textColor="?colorOnSurface"
-        app:layout_constraintBottom_toBottomOf="@+id/icon"
-        app:layout_constraintStart_toEndOf="@+id/icon"
-        app:layout_constraintTop_toTopOf="@+id/icon"/>
+        app:layout_constraintBottom_toBottomOf="@id/icon"
+        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintTop_toTopOf="@id/icon"/>
          
 
 </androidx.constraintlayout.widget.ConstraintLayout>

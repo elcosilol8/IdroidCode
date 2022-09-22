@@ -14,7 +14,7 @@
     <string name="design">Diseño</string>
     <string name="blueprint">Límite de diseño</string>
     <string name="device_scope_format">La aplicación será compatible aproximadamente con %s de dispositivos android</string>
-    
+    <string name="error_title">Ha ocurrido un error inesperado.\nLamentamos el inconveniente.</string>
      <string name="mal_title_about">Acerca de</string>
     <string name="mal_title_licenses">Licencias</string>
 

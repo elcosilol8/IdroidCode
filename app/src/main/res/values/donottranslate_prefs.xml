@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Keys -->
-    <string name="pref_key_dark_theme">key_dark_theme</string>
+    <string name="pref_key_dark_theme" translatable="false">key_dark_theme</string>
     
 
     <!-- Entries -->
@@ -23,6 +23,6 @@
     </string-array>
 
     <!-- Default values -->
-    <string name="pref_default_value_dark_theme">0</string>
+    <string name="pref_default_value_dark_theme" translatable="false">0</string>
 
 </resources>

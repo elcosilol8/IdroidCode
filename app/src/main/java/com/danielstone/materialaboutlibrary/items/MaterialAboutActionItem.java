@@ -150,7 +150,7 @@ public class MaterialAboutActionItem extends MaterialAboutItem {
 
         if (item.getOnClickAction() != null || item.getOnLongClickAction() != null) {
             TypedValue outValue = new TypedValue();
-            context.getTheme().resolveAttribute(R.attr.selectableItemBackground, outValue, true);
+            context.getTheme().resolveAttribute(android.R.attr.selectableItemBackground, outValue, true);
             holder.view.setBackgroundResource(outValue.resourceId);
         } else {
             holder.view.setBackgroundResource(0);

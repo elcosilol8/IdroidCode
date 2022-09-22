@@ -22,7 +22,7 @@ class SettingActivity : BaseActivity() {
         toolbar.setNavigationOnClickListener { _ -> onBackPressed() }
 
         appbar.setLiftOnScrollTargetViewId(androidx.preference.R.id.recycler_view)
-        val recyclerView: View? = findViewById(androidx.preference.R.id.recycler_view)
-        recyclerView?.addSystemWindowInsetToPadding(false, false, false, true)
+       // val recyclerView: View? = findViewById(androidx.preference.R.id.recycler_view)
+       // recyclerView?.addSystemWindowInsetToPadding(false, false, false, true)
     }
 }

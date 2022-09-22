@@ -52,10 +52,10 @@ protected MainViewModel mainViewModel;
 		requireActivity().addMenuProvider(new MenuProvider() {
             @Override
             public void onCreateMenu(@NonNull Menu menu, @NonNull MenuInflater menuInflater) {
-         if (menu instanceof MenuBuilder) {
+         /*if (menu instanceof MenuBuilder) {
 			MenuBuilder menuBuilder = (MenuBuilder) menu;
 			menuBuilder.setOptionalIconsVisible(true);
-		}
+		}*/
 			menu.clear();
 		setMenu(menu);
                 

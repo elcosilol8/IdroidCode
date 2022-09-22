@@ -37,7 +37,7 @@
         android:hint="Nombre del paquete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_app_name"
+        app:layout_constraintTop_toBottomOf="@id/til_app_name"
         app:placeholderText="com.my.myapp">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -61,7 +61,7 @@
         app:endIconMode="custom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_package_name">
+        app:layout_constraintTop_toBottomOf="@id/til_package_name">
         
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_save_location"
@@ -83,7 +83,7 @@
         android:hint="Lenguaje"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_save_location">
+        app:layout_constraintTop_toBottomOf="@id/til_save_location">
 
         <AutoCompleteTextView
             android:id="@+id/et_language"
@@ -102,7 +102,7 @@
         android:hint="Mínimo Sdk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_language">
+        app:layout_constraintTop_toBottomOf="@id/til_language">
 
         <AutoCompleteTextView
             android:id="@+id/et_min_sdk"
@@ -120,7 +120,7 @@
               android:gravity="center"
 		 app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_min_sdk"/>
+        app:layout_constraintTop_toBottomOf="@id/til_min_sdk"/>
         
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -51,7 +51,7 @@
            
              android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:layout_anchor="@+id/list"
+        app:layout_anchor="@id/list"
             android:elevation="1dp"
              
             app:tint="@color/white"

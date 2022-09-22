@@ -61,7 +61,7 @@ public class SimpleDialog {
 				.setTitle("Acerca de")
 				.setMessage("Esta aplicación fue creada por Alexander Rotela")
 				.setPositiveButton(android.R.string.ok, (d, which)->{
-					Toast.makeText(context,"Hola",1).show();
+					
 					
 					})
 							.setNegativeButton(android.R.string.cancel, (d, which)->{

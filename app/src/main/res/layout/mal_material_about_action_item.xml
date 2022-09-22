@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -19,7 +21,7 @@
         android:layout_marginRight="@dimen/mal_baseline_half"
         android:layout_marginStart="@dimen/mal_baseline"
         android:adjustViewBounds="false"
-        android:tint="?colorOnSurfaceVariant"
+        app:tint="?colorOnSurfaceVariant"
         android:contentDescription="@null"
         android:cropToPadding="false"
         android:scaleType="centerInside" />

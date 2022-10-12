@@ -72,7 +72,7 @@ implementation 'com.takisoft.preferencex:preferencex:1.1.0'
 implementation 'com.google.googlejavaformat:google-java-format:1.15.0'
 implementation 'io.github.itsaky:nb-javac-android:17.0.0.3'
 
-compileOnly 'com.google.guava:guava:31.1-jre'
+
 
 implementation 'com.google.auto.value:auto-value-annotations:1.9'
 

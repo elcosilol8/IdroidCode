@@ -20,12 +20,13 @@ public class JavaCodeEditorFragment extends BaseCodeEditorFragment {
 String _format;
 
 		public JavaCodeEditorFragment(String path) {
+		
 		super(path);
 		}
 			@Override
 			 protected void setMenu(Menu menu) {
 			 super.setMenu(menu);
-			 menu.add("Formato").setOnMenuItemClickListener(item -> {
+			 menu.add("Formatear código").setOnMenuItemClickListener(item -> {
  
 	
 			 
